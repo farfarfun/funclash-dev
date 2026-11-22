@@ -1,6 +1,9 @@
 logs/
 .run/
 
+.claude/settings.local.json
+.claude/worktrees/
+
 .env
 .env.*
 !.env.example

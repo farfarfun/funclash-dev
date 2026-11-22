@@ -1,0 +1,8 @@
+[submodule "apps/funclash"]
+	path = apps/funclash
+	url = https://github.com/farfarfun/funclash.git
+	branch = master
+[submodule "apps/funclash-core"]
+	path = apps/funclash-core
+	url = https://github.com/farfarfun/funclash-core.git
+	branch = funclash

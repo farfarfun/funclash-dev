@@ -6,3 +6,7 @@
 	path = apps/funclash-core
 	url = https://github.com/farfarfun/funclash-core.git
 	branch = funclash
+[submodule ".agents"]
+	path = .agents
+	url = https://github.com/farfarfun/funclash-agents.git
+	branch = master

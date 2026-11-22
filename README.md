@@ -9,6 +9,7 @@ funclash 联合开发仓库，通过 Git 子模块固定多平台客户端与内
 | --- | --- | --- | --- |
 | `apps/funclash` | [funclash](https://github.com/farfarfun/funclash) | app | 基于 mihomo (Clash.Meta) 的多平台代理客户端（Android、Windows、macOS、Linux） |
 | `apps/funclash-core` | [funclash-core](https://github.com/farfarfun/funclash-core) | core | FunClash 构建所依赖的 mihomo (Clash.Meta) 内核（默认分支 `funclash`） |
+| `.agents` | [funclash-agents](https://github.com/farfarfun/funclash-agents) | agents | 面向 AI Agent 的 `.agents` 配置、参考文档与多 Skill 仓库 |
 
 具体的环境准备、构建和开发方式见各子项目 README。
 
@@ -31,7 +32,7 @@ git submodule update --init --recursive
 
 ```bash
 git submodule update --remote
-git add apps/funclash apps/funclash-core
+git add .agents apps/funclash apps/funclash-core
 ```
 
 子模块指针的更新由本仓库记录，需要随父仓库一起提交。

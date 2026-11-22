@@ -1,8 +1,7 @@
 logs/
 .run/
 
-.claude/settings.local.json
-.claude/worktrees/
+.claude/
 
 .env
 .env.*

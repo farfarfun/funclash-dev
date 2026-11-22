@@ -77,6 +77,5 @@ Read these only when the task touches their area:
 
 ## Repo Skills
 
-Use repo skills from `.agents/skills/` when a task matches their descriptions; `.claude/skills/` symlinks expose the
-same skills to Claude Code. Current skills cover localization, UI work, core/platform changes, and pre-commit
-structural quality review.
+Use repo skills from `.agents/skills/` when a task matches their descriptions. Current skills cover localization, UI work,
+core/platform changes, and pre-commit structural quality review.
